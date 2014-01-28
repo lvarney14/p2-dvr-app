@@ -1,9 +1,12 @@
 .tabs dd > a {
 	float: left;
-	width: 90px;
+	width: 96px;
+
 }
 
 /* for tab 1*/
-.tabs dd .active a {
-	background: yellow;
+.tabs dd.active a {
+	background: #f0f;
+
+	transition: background 1s;
 }

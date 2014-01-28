@@ -6,7 +6,7 @@
     <title> P2: DVR App</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css"/>
-    
+
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -15,8 +15,8 @@
   
             <!-- Tab Labels -->
             <dl class="tabs" data-tab>
-              <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
-              <dd><a href="#panel2-2">Tab 2</a></dd>
+              <dd class="active"><a href="#panel2-1">Main</a></dd>
+              <dd><a href="#panel2-2">Options</a></dd>
               <dd><a href="#panel2-3">Tab 3</a></dd>
               
             </dl>
@@ -24,7 +24,14 @@
             <!-- Tab Content -->
             <div class="tabs-content">
               <div class="content active" id="panel2-1">
-                <p>First panel content goes here...</p>
+                <div class="button-bar">
+                    <ul class="button-group [radius round]">
+                      <li><a href="#" class="[tiny small large] button  [disabled]">Pause</a></li>
+                      <li><a href="#" class="[tiny small large] button  [disabled]">Play</a></li>
+                      <li><a href="#" class="[tiny small large] button  [disabled]">Stop</a></li>
+                    </ul>
+                    
+                  </div>
               </div>
               <div class="content" id="panel2-2">
                 <p>Second panel content goes here...</p>
