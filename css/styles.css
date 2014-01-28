@@ -1,0 +1,4 @@
+.tabs dd > a {
+	float: left;
+	width: 90px;
+}
