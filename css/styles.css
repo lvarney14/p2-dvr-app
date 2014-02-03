@@ -1,12 +1,19 @@
 .tabs dd > a {
 	float: left;
 	width: 96px;
+	height: 30px;
 
 }
 
 /* for tab 1*/
 .tabs dd.active a {
-	background: #f0f;
+	background: lightgreen;
 
 	transition: background 1s;
+}
+
+img {
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
