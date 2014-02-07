@@ -1,19 +1,4 @@
-.tabs dd > a {
-	float: left;
-	width: 96px;
-	
-
+h1 {
+	text-align: center;
 }
 
-/* for tab 1*/
-.tabs dd.active a {
-	background: lightgreen;
-
-	transition: background 1s;
-}
-
-img {
-	 display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
